@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+
+<html lang="sv">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Djupviks hamn</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link href="https://fonts.googleapis.com/css?family=Cinzel%7CPlayfair+Display&display=swap" rel="stylesheet"/> 
+        <link rel="stylesheet" href="assets/css/style.css"/>
+        <link rel="stylesheet" type = "text/css" href="assets/css/lightbox.css"/>
+        <script src="assets/js/index.js" type="module"></script>
+        <script src="assets/js/functions.js"></script>
+        <script src="assets/js/lightbox-plus-jquery.min.js"></script>
+    </head>
+
+    <body>
+        <header id ="indexHeader">
+            <nav class="navbar">
+                <span class ="open-slide">
+                     <a href="#" onclick="openSlideMenu()">
+                        <svg width="30" height="30">
+                            <path d="M0,5 30,5" stroke="#000"/>
+                            <path d="M0,14 30,14" stroke="#000" />
+                            <path d="M0,23 30,23" stroke="#000"/>
+                        </svg>
+                    </a>
+                </span>
+
+                <ul>
+                    <li><a href="content/english.html">English</a></li>                
+                    <li><a href="#guest">Gästhamn</a></li>
+                    <li><a href="#news">Nyheter</a></li>
+                    <li><a href="#welcome">Om oss</a></li>      
+                </ul>    
+            </nav>
+        
+            <div id="side-menu" class="side-nav">
+                <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+                <a href="#welcome" id="welcomeMeny">Om oss</a>
+                <a href="#guest" id="guestMeny">Gästhamn</a>
+                <a href="#news" id="newsMeny">Nyheter</a>
+                <a href="content/english.html" id="englishMeny">English</a>    
+                <a href ="content/history.html">Historia</a>
+                <a href ="content/members.html">För Medlemmar</a>
+                <a href ="content/tourists.html">Turistmål</a>
+                <a href ="content/contact.html">Kontakta oss</a>
+            </div>
+
+            <div class ="header-inner">
+                <h1>Djupviks hamn</h1>
+                <p>Din natursköna hamn på Gotland.</p>
+            </div>
+           
+
+        </header>
+        <div id ="weatherDiv">
+            <div id ="weatherContent">
+                <p id="weatherSymbol"></p>         
+                <p id="temp"></p>  
+                <p id ="wind"></p>    
+                <p id="wind"><img class = "windDirection" src ="assets/images/extra/arrow.jpg" alt="pil för vindriktning"/></p>           
+            </div>
+        </div>
+
+        <main>
+            <section id ="welcome">
+                <h2>Välkommen till Djupviks Hamn</h2>
+                <p>Djupviks hamn ligger på Gotlands västkust nästan rakt öster om Lilla Karlsö. Hamnen är otroligt vackert belägen i anslutning till ett gammalt Gotländskt fiskeläge bestående av fiskebodar från sent 1800-tal. Husen är grupperade i tre rader, mellan dem ligger gistgarden där man torkar nät och närmast stranden ligger båthusen. Från fiskeläget har man fri utsikt mot de båda Karlsöarna.</p>
+            
+                <p>Ansvaret för hamnen och fiskeläget har Djupviks hamnförening, som är en ideell förening som aktivt verkar för att bibehålla och utveckla Djupvik som fiskehamn och som fritidsbåtshamn för de många närboende och sommarboende. </p>
+            
+                <p>Föreningen driver en glasskiosk och kaffeservering på sommartid i ett gammalt båthus vid hamnen. Ett par hundra meter ovanför hamnen ligger Djupviks Hotell, ett hotell med restaurang och bra standard.</p>    
+                <p>Det finns även toaletter i hamnen varav en som är tillgänglighetsanpassad för rullstolar och rollatorer. </p>                   
+                
+            </section>
+            
+            
+            <section id ="guest">
+                <h3>Gästhamnen</h3>
+                <div class ="guestRow">
+                    <div class ="guestColumn">
+                        <h4>Service </h4>
+                        <p>Vatten och el finns utdraget på kajerna. I land kan vi erbjuda ett modernt servicehus med WC, dusch och tvättmaskin. </p>
+                    </div>
+                    <div class = "guestColumn">
+                        <h4>Djup </h4>
+                        <p>Vid normalvattendjup är djupet 3 meter i huvuddelen av hamnen.</p>
+                    </div>
+                    <div class = "guestColumn">
+                        <h4>Pris </h4>
+                    <p>Dygnshyra 150:- /dygn* El-anslutning 50:-/dygn *inkluderat kort för tillträde till servicehuset och 20:- för två duschar.</p>  
+                    </div>
+                </div></br>                 
+                <p>Ring gärna hamnfogden för att få reda på aktuellt läge. Bo Lautin. Mobil 0707 - 92 03 10</p>          
+            </section>
+
+            <div id = "imageContainter"></div>
+
+            <section id="news">
+                <h2>Senaste nytt</h2>
+                <div class = "newsRow">
+                    <div class = "newsColumn">        
+                        <article class ="post">
+                        <h3>Hamnjobb</h3>
+                        <h4 class="date"><time>2019-04-06 </time></h4>
+                        <p>Lördagen den 6 april samlades ett antal av föreningens medlemmar för arbete i hamnen. Kiosken, kajerna och stranden städades. Kajer lagades och gräs brändes. Diverse fix på många håll. Vädret var bra och korven god. Det som återstår inför säsongen är att ta bort släke från stranden, att sätta upp ramp vid kiosken och att fylla kiosken med varor.</p>
+                    </article>
+                    </div>
+                    <div class = "newsColumn">
+                        <article class="post">
+                            <h3>Succé för hamnens dag! </h3>
+                            <h4 class="date"><time>2018-07-16</time></h4>
+                            <p>Lördagen den 16 juli arrangerade föreningen Djupviks hamn i Eksta ”Hamnens dag” i Djupvik. Vårt arbete har med åren alltmer också inriktats på att alla besökare, även de som kommer landvägen skall trivas i det vackra hamnområdet. Nu bjöds det in till ”Hamnens dag”. På plats fanns sjöfartsverkets SAR-helikopter, Sjöräddningens båt Hwitstjärna, släckningsbil från räddningstjänsten i Klintehamn, russ från Gannarve och ett antal loppisförsäljare. Aktiviteten lockade ett stort antal besökare.
+                                Uppskattningsvis 1000 besökare sökte sig under dagen till Djupvik. Intresset var stort för de besökande organisationerna som informerade och alla fick möjlighet att titta och ställa frågor. Barnen fick rida, de bjöds på bulle och dricka och många prövade lyckan i fiskdammen. Det fanns möjlighet att handla kaffe, korv, dricka och glass. Många dröjde sig kvar i hamnområdet och trivdes i det inledningsvis lite blåsiga men vackra vädret.
+                            </p>     
+                        </article>
+                    </div>  
+                </div>
+            </section>
+
+            <section id = "gallery">
+                <h2>Galleri</h2>
+                <a href ="assets/images/D-16.jpg" data-lightbox="mygallery" data-title=""><img src ="assets/images/thumbnails/D-16-thumbnail.jpg"></a>
+                <a href ="assets/images/D-19.jpg" data-lightbox="mygallery" data-title=""><img src ="assets/images/thumbnails/D-19-thumbnail.jpg"></a>
+                <a href ="assets/images/D-13.jpg" data-lightbox="mygallery" data-title=""><img src ="assets/images/thumbnails/D-13-thumbnail.jpg"></a>
+                <a href ="assets/images/D-29.jpg" data-lightbox="mygallery" data-title=""><img src ="assets/images/thumbnails/D-29-thumbnail.jpg"></a>
+                <a href ="assets/images/D-22.jpg" data-lightbox="mygallery" data-title=""><img src ="assets/images/thumbnails/D-22-thumbnail.jpg"></a>
+                <a href ="assets/images/D-28.jpg" data-lightbox="mygallery" data-title=""><img src ="assets/images/thumbnails/D-28-thumbnail.jpg"></a>
+                <a href ="assets/images/D-20.jpg" data-lightbox="mygallery" data-title=""><img src ="assets/images/thumbnails/D-20-thumbnail.jpg"></a>
+                <a href ="assets/images/D-10.jpg" data-lightbox="mygallery" data-title=""><img src ="assets/images/thumbnails/D-10-thumbnail.jpg"></a>
+                <a href ="assets/images/D-27.jpg" data-lightbox="mygallery" data-title=""><img src ="assets/images/thumbnails/D-27-thumbnail.jpg"></a>
+                <a href ="assets/images/D-15.jpg" data-lightbox="mygallery" data-title=""><img src ="assets/images/thumbnails/D-15-thumbnail.jpg"></a>
+                <a href ="assets/images/D-24.jpg" data-lightbox="mygallery" data-title=""><img src ="assets/images/thumbnails/D-24-thumbnail.jpg"></a>
+                <a href ="assets/images/D-21.jpg" data-lightbox="mygallery" data-title=""><img src ="assets/images/thumbnails/D-21-thumbnail.jpg"></a>        
+                <a href ="assets/images/D-2.jpg" data-lightbox="mygallery" data-title=""><img src ="assets/images/thumbnails/D-2-thumbnail.jpg"></a>
+                <a href ="assets/images/D-11.jpg" data-lightbox="mygallery" data-title=""><img src ="assets/images/thumbnails/D-11-thumbnail.jpg"></a>
+                <a href ="assets/images/D-23.jpg" data-lightbox="mygallery" data-title=""><img src ="assets/images/thumbnails/D-23-thumbnail.jpg"></a>
+            </div>
+
+        </main>
+        <footer>
+            <div id = "contactFooter">     
+                <h1>Kontakt</h1></br>
+                <img src = "assets/images/email.png" alt ="email">
+                <p>info@djupvikshamn.se</p></br>
+                <img src ="assets/images/telephone.png" alt ="telefon"><p> 0703 - 21 65 89</p></br>
+                <a href ="https://www.facebook.com/djupvikshamn.se/"><img src ="assets/images/facebook_icon.png" alt ="facebook ikon"></a><p>Djupviks Hamn i Eksta</p>
+            </div></br>
+            <div class = "map-responsive">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8620.03709441842!2d18.148945!3d57.3077038!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7d480023427eb618!2sDjupviks%20Hamn!5e0!3m2!1sen!2sse!4v1589896993625!5m2!1sen!2sse" width="1200" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+            <div id = "copyright">
+                <p>© Copyright Djupviks hamn 2019</p>
+            </div>
+        </footer>
+    </body>
+</html>
+
